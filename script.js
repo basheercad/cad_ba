@@ -1,0 +1,58 @@
+function operations(){
+    var a = 20;
+    var b = 10;
+    console.log("Value of A = "+a);
+    console.log("Value of B = "+b);
+
+    console.log("Addition :");
+    c=a+b;
+    console.log("Added value of A and B is "+c);
+    console.log("Subraction :");
+    c=a-b;
+    console.log("Subracted value of A and B is "+c);
+    console.log("Multiplication  :");
+    c=a*b;
+    console.log("Multiplied value of A and B is "+c);
+    console.log("Divition :");
+    c=a/b;
+    console.log("Divided value of A and B is "+c);
+    console.log("Modulus :");
+    c=a%b;
+    console.log("Modulus of A and B is "+c);
+    console.log("Exponantial :");
+    c=a**b;
+    console.log("Exponantial of A and B is "+c);
+    console.log("Increment :");
+    c=a++;
+    console.log("Increment of A and B is "+c);
+    console.log("Decrement  :");
+    c=a--;
+    console.log("Decrement of A and B is "+c);
+
+    console.log(Comparison_Operators);
+    console.log("Equal to :");
+    c=a==b;
+    console.log("Added value of A and B is "+c);
+    console.log("Equal  :");
+    c=a==b;
+    console.log("Added value of A and B is "+c);
+    console.log("Equal to :");
+    c=a==b;
+    console.log("Added value of A and B is "+c);
+    console.log("Equal to :");
+    c=a==b;
+    console.log("Added value of A and B is "+c);
+    console.log("Equal to :");
+    c=a==b;
+    console.log("Added value of A and B is "+c);
+    console.log("Equal to :");
+    c=a==b;
+    console.log("Added value of A and B is "+c);
+    console.log("Equal to :");
+    c=a==b;
+    console.log("Added value of A and B is "+c);
+    console.log("Equal to :");
+    c=a==b;
+    console.log("Added value of A and B is "+c);
+}
+operations();
