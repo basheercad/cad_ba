@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> h1{
+        background: linear-gradient(to right,#30cfd0 0%,#330867 100%);
+        background-clip: text;
+        color:transparent;
+    }
+    
+    p{
+        color: red;
+    
+    }
+    
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">CALCULATOR</h1>
+   
+
+<input type="text" id="v1" placeholder="Enter number 1"><br>
+<input type="text" id="v2" placeholder="Enter number 2"><br>
+ <input type="submit"  value="add" onclick="myfun('+')">
+  <input type="submit"  value="sub" onclick="myfun('-')">
+ <input type="submit"  value="mul" onclick="myfun('*')">
+ <input type="submit"  value="div" onclick="myfun('/')">
+
+      
+    <p id="out" >answer</p>
+    <script >
+    function myfun(a)
+    {
+       var value1 =document.getElementById("v1").value;
+      var value2=document.getElementById("v2").value;
+        
+
+        value1=Number(value1);
+        value2=Number(value2);   
+
+    switch(a)
+    {
+        case '+':
+            document.getElementById("out").innerHTML=value1+value2;
+            break;
+        case '-':
+            document.getElementById("out").innerHTML=value1-value2;
+            break;
+        case '*':
+            document.getElementById("out").innerHTML=value1*value2;
+            break;
+        case '/':
+            document.getElementById("out").innerHTML=value1/value2;
+            break;
+    }
+
+    console.log(a);
+
+    }
+        </script>
+</body>
+</html>

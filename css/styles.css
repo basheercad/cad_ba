@@ -239,19 +239,19 @@
   box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .App__section-grid-item:nth-of-type(1) .featured-image {
-  background-image: url("https://i.scdn.co/image/239649cd6dfd2296632d269b115d1e147695a0a8");
+  background-image: url("https://i.postimg.cc/MT058RN2/aj.jpg");
 }
 .App__section-grid-item:nth-of-type(2) .featured-image {
-  background-image: url("https://i.scdn.co/image/1ec33564b0c0c1db64babdcf678a5246a4605c6f");
+  background-image: url("https://i.postimg.cc/0NsJ13sj/ani.jpg");
 }
 .App__section-grid-item:nth-of-type(3) .featured-image {
-  background-image: url("https://i.scdn.co/image/50a4653e91a472a85b6759225ffd5a2f71d8a9ba");
+  background-image: url("https://i.postimg.cc/rmy0KrzL/ar.jpg");
 }
 .App__section-grid-item:nth-of-type(4) .featured-image {
-  background-image: url("https://i.scdn.co/image/8feb7ba9f991af98307ae1de9c491c43754765dc");
+  background-image: url("https://i.postimg.cc/SsZX8xzY/basyr.jpg");
 }
 .App__section-grid-item:nth-of-type(5) .featured-image {
-  background-image: url("https://i.scdn.co/image/15488d6d07e4d31d388be232f921569bd32d1ac3");
+  background-image: url("https://i.postimg.cc/VkjdgRC8/st.jpg");
 }
 .App__section-grid-item h3 {
   margin-bottom: 8px;
