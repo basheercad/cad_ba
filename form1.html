@@ -4,329 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *
-        {
-        margin:0px;
-        padding:0px;
-        }
-        body
-        {
-        height:1000px;
-        }
-        #head
-        {
-        width:800px;
-        height:35px;
-        margin-top:50px;
-        margin-left:auto;
-        margin-right:auto;
-        
-        }
-        #pages
-        {
-        height:30px;
-        width:800px;
-        text-decoration:none;
-        text-align:right;
-        margin-left:auto;
-        margin-right:auto;
-        
-        }
-        #table
-        {
-        width:800px;
-        height:200px;
-        margin-left:auto;
-        margin-right:auto;
-        }
-        #city
-        {
-        width:170px;
-        }
-        #btndiv
-        {
-        width:800px;
-        height:100px;
-        margin-left:auto;
-        margin-right:auto;
-        text-align:center;
-        }
-        #add, #reset
-        {
-        width:100px;
-        height:30px;
-        border-radius:10px;
-        }
-        #table2
-        {
-        width:730px;
-        
-        margin-left:auto;
-        margin-right:auto;
-        background-color:grey;
-        }
-        #myTableData
-        {
-        width:800px;
-        height:100px;
-        margin-left:auto;
-        margin-right:auto;
-        text-align:center;
-        }
-        </style>
 </head>
 <body>
-    <div id="head">
-        <h1 align="center">Data Entry Form</h1>
-    </div>
-    <div id="pages">
-        <a href="search.html">search |</a>
-        <a href="Entry.html">Entry</a>
-    </div>
-    <div>
-    
-    <form name="form1" onsubmit="validate(this.form)">
-    <table id="table" cellspacing="50">
-    
-    <tr>
-    <td>Name*</td><td><input type="text" name="Name" id="name" required></td>
-    <td>Email*</td><td><input type="text" name="Email" id="email" required></td>
-    </tr>
-    <tr>
-    <td>Date of Birth*</td><td><input type="date" name="Date" id="dateofbirth" required></td>
-    <td>Phone</td><td><input type="text" name="Phone" id="phone"></td>
-    </tr>
-    <tr>
-    <td>Gender*</td><td>
-    <input required type="radio" id="male" class="gender" value="Male" name="Gender">Male&nbsp&nbsp&nbsp&nbsp&nbsp
-    <input type="radio" class="gender" id="female" value="Female" name="Gender">Female</td>
-    <td>City*</td><td>
-                   <select id="city" required>
-                   <option>select a city</option>
-                   <option>Delhi</option>
-                   <option>Mumbai</option>
-                   <option>Kolkata</option>
-                   <option>Chennai</option>
-                   <option>Pune</option>
-                   <option>Bangalore</option>
-                   <option>Hyderabad</option>
-                   <option>Kochin</option>
-                   </select>
-                  </td>
-    </tr>
-    
-    </table>
-    
-    <div id="btndiv">
-    <input id="add" type="submit" value="Save" onclick="myDetails(this)">
-    <button id="reset" onclick="myReset()">Reset</button>
-    </div>
-    
-    </form>
-    
-    <table id="myTableData" onclick="myDetails()">
-        <tr>
-            <td><b>S.No</b></td>
-            <td><b>Name</b></td>
-            <td><b>Date of Birth</b></td>
-            <td><b>Age</b></td>
-            <td><b>Email</b></td>
-            <td><b>Gender</b></td>
-            <td><b>City</b></td>
-            <td><b>Edit | Delete</b></td>
+      
+    <table border="5" align="center">
+        <tr><th colspan="2">Registration form</th></tr>
+        <tr><td>Reg No</td><td><input type="text" id="reg" value=""></td></tr>
+        <tr><td>Name</td><td><input type="text" id="name" value=""></td></tr>
+        <tr><td>DOB</td><td><input type="text" id="dob" value=""></td></tr>
+        <tr><td>UserName</td><td><input type="text" id="uname" value=""></td></tr>
+        <tr><td>Email</td><td><input type="text" id="email" value=""></td></tr>
+        <tr><td>Password</td><td><input type="password" id="password" value=""></td></tr>
+        <tr><td>Phone no</td><td><input type="tel" id="phn" value=""></td></tr>
+        <tr><td colspan="2" align="center"><input type="submit" value="save" onclick="myFunction()"></td></tr>
+        </table>
+<br><br><br><br><br>
+        <table border="5" align="center">
+            <tr><th colspan="2">Registration form</th></tr>
+            <tr><td>Reg No</td><td id="freg"></td></tr>
+            <tr><td>Name</td><td id="fname"></td></tr>
+            <tr><td>DOB</td><td id="fdob"></td></tr>
+            <tr><td>UserName</td><td id="funame"></td></tr>
+            <tr><td>Email</td><td id="femail"></td></tr>
+            <tr><td>Password</td><td id="fpassword"></td></tr>
+            <tr><td>Phone no</td><td id="fphn"></td></tr>
             
-        
-        </tr>
-    </table>
-    
-    
-    
-    
-    
-    </div>
-    <script>
-        //Email Validation Part
-        
-        
-            
-        //Name Validation Part
-        
-        function validateName(Name) 
+            </table>
+
+        <script>
+            function myFunction()
             {
-            var nam = document.form1.Name.value;
-            var letters = /^[A-Za-z]+$/;  
-            if(document.form1.Name.value.match(letters))  
-                {
-                return true;  
-                }
-            else  
-                {  
-                alert('Please input alphabet characters only');  
-                return false;  
-                }
+                var a= document.getElementById("reg").value;
+                var b= document.getElementById("name").value;
+                var c= document.getElementById("dob").value;
+                var d= document.getElementById("uname").value;
+                var e= document.getElementById("email").value;
+                var f= document.getElementById("password").value;
+                var g= document.getElementById("phn").value;
+
+                document.getElementById("freg").innerHTML=a;
+                document.getElementById("fname").innerHTML=b;
+                document.getElementById("fdob").innerHTML=c;
+                document.getElementById("funame").innerHTML=d;
+                document.getElementById("femail").innerHTML=e;
+                document.getElementById("fpassword").innerHTML=f;
+                document.getElementById("fphn").innerHTML=g;
+
+
             }
-            
-        //Basic Validation Part
-        
-        function validate()
-        
-        
-            {
-            
-            if( document.form1.Name.value == "" )
-                {
-                alert( "Please provide your name!" );
-                document.form1.Name.focus() ;
-                return false;
-                }
-            else
-                {
-                var nameret = validateName();
-                if(nameret == false)
-                    {
-                    return false;
-                    }
-                }
-                
-                
-            
-            var pattern=/^([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+\.([a-zA-Z])+([a-zA-Z])+/;
-            if(pattern.test(Email)){         
-                return true;   
-            }else{   
-                alert("Please check your Email again..."); 
-                return false;
-            }
-        
-            
-            /*if( document.form1.Email.value == "" )
-                {
-                alert( "Please provide your Email!" );
-                document.form1.Email.focus() ;
-                return false;
-                }
-            else
-                {
-                var mailret = validateEmail();
-                if( ret == false )
-                    {
-                    return false;
-                    }
-                }*/
-            if( document.form1.Phone.value == "" || isNaN( document.form1.Phone.value ) || document.form1.Phone.value.length != 12 )
-                {
-                alert( "Please provide the mobile number with country code" );
-                document.form1.Phone.focus() ;
-        
-                }
-            if( document.form1.City.value == "-1" )
-                {
-                alert( "Please provide your City!" );
-        
-                }
-            
-                var today=new Date();
-                var t=today.getFullyear();
-            if( document.form1.Date.value == "" || document.form1.Date.value>t)	{
-                alert("Please Enter the valid Date of Birth");
-                
-            }
-        
-            if(form.Gender[0].checked == false && form.Gender[1].checked == false)
-            {
-            alert("Gender must be choosen");
-            
-            }
-            
-            
-        }
-         
-        //Age Calculation Part
-        
-        function calcAge() {
-                    var date = new Date(document.getElementById("dateofbirth").value);
-                    var today = new Date();
-        
-                    var timeDiff = Math.abs(today.getTime() - date.getTime());
-                    var age1 = Math.ceil(timeDiff / (1000 * 3600 * 24)) / 365;
-                    if(age1<0){
-                    alert("Please give the valid date of birth")
-                    return false;}
-                    return parseInt(age1);
-                }
-                //Compares calculated age with minimum age and acts according to rules//
-        //For adding rows
-        function addRow() {
-        
-        validate();
-        debugger;
-            var myName = document.getElementById("name").value;
-            var myDateOfBirth = document.getElementById("dateofbirth").value;
-            var myAge = calcAge();
-            var myEmail = document.getElementById("email").value;
-            var myGender = document.getElementsByClassName("gender").value;
-            var myCity = document.getElementById("city").value;
-            var myEditDelete = document.getElementsByClassName("editdelete");
-            var table = document.getElementById("myTableData");
-         
-            var rowCount = table.rows.length;
-            var row = table.insertRow(rowCount);
-            var mySno = rowCount;      
-         
-           
-            row.insertCell(0).innerHTML= mySno;
-            row.insertCell(1).innerHTML= myName;
-            row.insertCell(2).innerHTMl= myDateOfBirth;
-            row.insertCell(3).innerHTML= myAge;
-            row.insertCell(4).innerHTML= myEmail;
-            row.insertCell(5).innerHTML= myGender;
-            row.insertCell(6).innerHTML= myCity;
-            row.insertCell(7).innerHTML= '<input type="button" value = "Delete" class="editdelete" onClick="Javacsript:deleteRow(this)"><input type="button" class="editdelete" value="Edit"onclick="Javacsript:editRow(this)">';
-           
-           var personObj= new Object();
-           personObj[0]=mySno;
-           personObj[1]=myName;
-           personObj[2]=myDateOfBirth;
-           personObj[3]=myAge;
-           personObj[4]=myEmail;
-           personObj[5]=myGender;
-           personObj[6]=myCity;
-           personObj[7]=myEditDelete;
-           return personObj;
-         
-           personArray = [];
-            for(var i = 0; i<personArray.length; i++){
-                document.getElementById("myTableData").innerHTML += personArray[i];
-            }
-        }
-         
-        }
-        
-        function deleteRow(obj) {
-             
-            var index = obj.parentNode.parentNode.rowIndex;
-            var table = document.getElementById("myTableData");
-            table.deleteRow(index);
-            
-        }
-        function editRow(obj) {
-              
-            var index = obj.parentNode.parentNode.rowIndex;
-            var table = document.getElementById("myTableData");
-            table.editRow(index);
-            
-        }
-         
-        
-        
-        
-        
-        
-        
-        function myReset() {
-            document.form1.reset();
-        }
         </script>
 </body>
 </html>
