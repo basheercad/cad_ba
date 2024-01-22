@@ -9,17 +9,39 @@
     <h1 align="center">KADAVULE OUTPUT CORRECT AH VARANUM</h1>
     <label>input box:</label><br>
     <input type="text" value="" id="a1">
+    <input type="text" value="" id="a2">
+    <input type="text" value="" id="a3">
     <input type="submit" onclick="fun()">
+    <br><br>
+    <p id="result" align="center"></p>
     <script>
      function fun(){
         var a=document.getElementById("a1").value;
-        b=0;
-        while(b<a){
-            b++;
-            console.log(b + "is greater than" + a);
+        var b=document.getElementById("a2").value;
+        var c=document.getElementById("a3").value;
+       var text="";
+       for(let i=0;i<a;i++){
+        for(let j=0;j<i;j++){
+            for(let k=0;k<j;k++){
+              text=text+i;
+            }
+            }
+            text=text+"<br>";
         }
-    
-      }
+        document.getElementById("result").innerHTML=text;
+       }
+       var chandru={
+        name:"chandru",
+        age:25,
+        college:"EVR"
+       };
+       for(gopal in chandru){
+        console.log(gopal + ":" + chandru[gopal]);
+       }
+       var sandy=["welcome to great kirikalan magic show","please come all"];
+       for(basheer of sandy){
+        console.log(basheer);
+       }
     </script>
 </body>
 </html>
