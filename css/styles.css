@@ -1,6 +1,25 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
 }
+.heading{
+	display: flex;
+	gap: 20px;
+padding-left: 20px;
+	float: right;
+}
+.heading img{
+width:30px;
+height: 30px;
+}
+.ins a img:hover ,.wat a img:hover ,.x a img:hover{
+	color: black;
+	background-color:white;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+.container{
+	padding-top: 50px;
+}
 
 .small_container h1{
 	text-align: left;
@@ -79,13 +98,15 @@ h1{
 }	
 
 
-}
+
 .HomeHeadingDescrp{
 	text-align: center;
 }
 
 
- 
+ .a1 p,.a2 p,.a3 p,.a4 p{
+	padding-left: 90px;
+ }
 
 
 
@@ -112,31 +133,22 @@ body{
 	background-color:black;
 	margin-top:30px;
 }
-.one p{
-	text-align: center;
-	background-color: white;
-	background-color:BLACK;
-}
 
 
-.one_color{
-	background-color: black;
-}
-.a1{
-	background-color: black;
-	border: 2px solid white;
 
+.a1,.a2,.a3,.a4,.b1,.b2,.b3,.b4{
+ padding-top: 50px;
+	
 	
 }
-.a2{
-	background-color: black;
-	border: 2px solid white;
+.a1 img,.a2 img,.a3 img,.a4 img,.b1 img,.b2 img,.b3 img,.b4 img{
+	border-radius: 30px;
 }
-.a3{
-	background-color: black;
-	border: 2px solid white;
-}
-.a4{
-	background-color: black;
-	border: 2px solid white;
+
+@media screen and (max-width: 100px){
+
+	li a{
+		font-size: 10px;
+	}
+	
 }
