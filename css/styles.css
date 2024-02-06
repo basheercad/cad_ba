@@ -16,6 +16,7 @@ height: 30px;
 	background-color:white;
 	padding: 10px;
 	padding-bottom: 20px;
+
 }
 .container{
 	padding-top: 50px;
@@ -91,6 +92,7 @@ h1{
 	border: 1px solid white;
 	background: white;
 	padding: 10px 10px;
+	
 }
 
 .lastmenuchild a{
@@ -142,6 +144,11 @@ body{
 	
 }
 .a1 img,.a2 img,.a3 img,.a4 img,.b1 img,.b2 img,.b3 img,.b4 img{
+	border-radius: 30px;
+}
+
+.a1 img:hover,.a2 img:hover,.a3 img:hover,.a4 img:hover,.b1 img:hover,.b2 img:hover,.b3 img:hover,.b4 img:hover{
+	transform: scale(1.2);
 	border-radius: 30px;
 }
 
