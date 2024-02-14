@@ -3,11 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>playlist</title>
+    <title>My Playlist</title>
+<style rel="stylesheet" type="text/css">body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+</style>
 </head>
 <body>
     <div class="container">
-        <a href=""></a>
+        <h1>My Playlist</h1>
+        <ul id="playlist"></ul>
     </div>
+
+    <script>document.addEventListener('DOMContentLoaded', function() {
+        const playlist = document.getElementById('playlist');
+    
+        // Sample playlist data
+        const songs = [
+            { title: 'Song 1', artist: 'Artist 1', duration: '3:45' },
+            { title: 'Song 2', artist: 'Artist 2', duration: '4:20' },
+            { title: 'Song 3', artist: 'Artist 3', duration: '2:55' }
+        ];
+    
+        // Render playlist
+        songs.forEach(song => {
+            const li = document.createElement('li');
+            li.textContent = `${song.title} - ${song.artist} (${song.duration})`;
+            playlist.appendChild(li);
+        });
+    
+        // Click event listener for each song
+        playlist.addEventListener('click', function(event) {
+            const clickedSong = event.target;
+            // Handle click on li element only
+            if (clickedSong.tagName === 'LI') {
+                alert(`You clicked on: ${clickedSong.textContent}`);
+            }
+        });
+    });
+    </script>
 </body>
 </html>

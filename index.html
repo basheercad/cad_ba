@@ -12,22 +12,23 @@
 <body>
 	<div class="heading">
 		<div class="dropdown">
-<select name="music" id="song">
-<option value="0">select gategories</option>
-<option value="1">u1</option>
-<option value="2">ani</option>
-<option value="3">harreis</option>
-<option value="4">arr</option>
+			<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+			<div id="myDropdown" class="dropdown-content">
+			  <a href="#home">Home</a>
+			  <a href="#about">About</a>
+			  <a href="#contact">Contact</a>
+			</div>
+		  </div>
+		  
 
-</select>
 
-
-		</div>
+		
 		<div class="ins"><a href="index.html"><img src="https://i.postimg.cc/XJsgLn65/first.jpg
 			" alt=""></a></div>
 		<div class="wat"><a href="index.html"><img src="https://i.postimg.cc/fbBXn5qn/whatapp.png" alt=""></a></div>
 <div class="x">		<a href="index.html"><img src="https://i.postimg.cc/7Y8NNspm/twitter.png" alt=""></a></div>
 	</div>
+
 
 <div class="container">
 <div class="free">
@@ -113,7 +114,25 @@
 	</div>
 	</div>
 <script>
-	//document.getElementById("new").innerHTML="hii hello welcome to hit";
+	/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
 	</script>
 </body>
 </html>
