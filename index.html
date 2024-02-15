@@ -1,15 +1,39 @@
 <html>
 	<head>
 	
-	<title></title>
+	<title>MUSIFY</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/styles.css"> 
 	<link rel="icon" type="image/x-icon" 
-	href="images/basyr.png"> 
+	href="https://i.postimg.cc/QdzkB4Wb/logo.webp"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,900;1,700&display=swap" rel="stylesheet">
+	
 </head>
 <body>
+	<div class="full">
+
+		<div class="sideMenu" id="side-menu">
+			<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a>
+			<div class="main-menu">
+				<h2>Menu</h2><a href="#"><i class="fa fa-home">
+				</i>Home</a> <a href="#"><i class="fa fa-users">
+				</i>About</a> <a href="#"><i class="fa fa-book">
+				</i>Portfolio</a> <a href="#"><i class="fa fa-file-o">
+				</i>Services</a> <a href="#"><i class="fa fa-phone">
+				</i>Contact</a>
+			</div>
+		</div>
+		<div id="content-area">
+			<span onclick="openNav()" style="font-size:30px;cursor:pointer">☰</span>
+			
+		
+	
+
+	
+
+
 	<div class="heading">
 		<div class="dropdown">
 			<button onclick="myFunction()" class="dropbtn">Dropdown</button>
@@ -21,7 +45,6 @@
 		  </div>
 		  
 
-
 		
 		<div class="ins"><a href="index.html"><img src="https://i.postimg.cc/XJsgLn65/first.jpg
 			" alt=""></a></div>
@@ -31,35 +54,9 @@
 
 
 <div class="container">
-<div class="free">
-
-<ul>
-	
-		<li>
-			<div class="home"><a href="index.html" target="_blank"><i class="fa fa-home fa-fw"></i></a></div>
-		</li>
 
 
-	<li>
-		<div class="playlist"><a href="playlist.html" target="_blank"><i class="fa fa-book fa-fw" ></i></a></div>
-	</li>
 
-
-	<li>
-		<div class="heart"><a href="#" target="_blank"><i class="fa fa-solid fa-heart"></i></a></div>
-   </li>
-    <li>
-        <div class="user"><a href="sign.html" target="_blank"><i class="fa fa-solid fa-user"></i></a></div>
-   </li>
-	
-    		
-</ul></div>
-
-<div class="lastmenuchild ">
-	<a href="about.html">about us</a>
-	 
-   </div>
-<div class="container">
 
 		<div class="one">
 			<div class="small_container">
@@ -102,17 +99,43 @@
 
 </ul>
 </div>
-<div class="">
-	<ul>
+</div>
+</div>
+<div class="free">
 
-	<li>
+	<ul>
 		
+			<li>
+				<div class="home"><a href="index.html" target="_blank"><i class="fa fa-home fa-fw"></i></a></div>
+			</li>
+	
+	
+		<li>
+			<div class="playlist"><a href="playlist.html" target="_blank"><i class="fa fa-book fa-fw" ></i></a></div>
+		</li>
+	
+	
+		<li>
+			<div class="heart"><a href="#" target="_blank"><i class="fa fa-solid fa-heart"></i></a></div>
+	   </li>
+		<li>
+			<div class="user"><a href="sign.html" target="_blank"><i class="fa fa-solid fa-user"></i></a></div>
+	   </li>
 		
-		
-	</ul>
-	</div>
-	</div>
-	</div>
+				
+	</ul></div></div>
+<script>
+	function openNav() {
+	 document.getElementById("side-menu").style.width = "300px";
+	 document.getElementById("content-area").style.marginLeft = "300px"; 
+
+	}
+
+	function closeNav() {
+	 document.getElementById("side-menu").style.width = "0";
+	 document.getElementById("content-area").style.marginLeft= "0";  
+	}
+	</script>
 <script>
 	/* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
@@ -134,5 +157,6 @@ window.onclick = function(event) {
   }
 }
 	</script>
+	
 </body>
 </html>

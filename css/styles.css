@@ -1,6 +1,8 @@
-body{
-	font-family: Arial, Helvetica, sans-serif;
+body{	
+background-color: black;
+margin-top:30px;
 }
+
 .dropbtn {
 	background-color: #3498DB;
 	color: white;
@@ -42,9 +44,80 @@ body{
   
   .show {display: block;}
 
+/*side menu*/
 
+.sideMenu {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: darksalmon;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+.main-menu h2 {
+	text-align: center;
+	letter-spacing: 7px;
+	color: #fff;
+	background: #111;
+	padding: 20px 0;
+	position:relative;
+	
+}
+.sideMenu a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	transition: 0.3s;
+	font-size: 18px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.sideMenu a i {
+	padding-right: 15px;
+}
+.main-menu a:hover {
+	color: #f1f1f1;
+	background: #111;
+}
+.sideMenu .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+#content-area {
+	transition: margin-left .5s;
+	padding: 16px;
+	background-color: white;
+}
 
+.content-text {
+	padding: 100px 180px;
+	text-align: center;
+}
+.content-text h2 {
+	background: darksalmon;
+	display: inline-block;
+	padding: 15px 35px;
+	text-transform: uppercase;
+	font-size: 50px;
+	color: #fff;
+}
+.content-text h3 {
+	text-transform: uppercase;
+	font-size: 45px;
+	margin: 0;
+	letter-spacing: 3px;
+}
 
+/*side menu*/
 
 
 
@@ -61,12 +134,15 @@ width:30px;
 height: 30px;
 }
 .ins a img:hover ,.wat a img:hover ,.x a img:hover{
-	color: white;
-	background-color:black;
-	
-
-
+	transition:o.5s ease-in;
+	filter:grayscale(100%);
 }
+
+.ins a img,.wat a img,.x a img{
+	
+	filter:grayscale(0%);
+}
+
 .container{
 	padding-top: 50px;
 }
@@ -99,7 +175,7 @@ h1{
 .free ul{
 	list-style-type: none;
 	background-color: white;
-	padding: 0;
+	padding: 10px;
 	margin:0;
 	height:30%;
 	width: auto;
@@ -179,11 +255,7 @@ h1{
 	gap:20px;
 }
 	
-body{
-	
-	background-color:black;
-	margin-top:30px;
-}
+
 
 
 
@@ -194,10 +266,12 @@ body{
 }
 .a1 img,.a2 img,.a3 img,.a4 img,.b1 img,.b2 img,.b3 img,.b4 img{
 	border-radius: 30px;
+	transition:o.5s ease-in;
+	filter:grayscale(100%);
 }
 
 .a1 img:hover,.a2 img:hover,.a3 img:hover,.a4 img:hover,.b1 img:hover,.b2 img:hover,.b3 img:hover,.b4 img:hover{
-	transform: scale(1.2);
+	filter:grayscale(0%);
 	border-radius: 30px;
 }
 
