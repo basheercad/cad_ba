@@ -1,7 +1,7 @@
-body{	
+body{
 background-color: black;
-margin-top:30px;
 }
+
 
 .dropbtn {
 	background-color: #3498DB;
@@ -95,7 +95,7 @@ margin-top:30px;
 #content-area {
 	transition: margin-left .5s;
 	padding: 16px;
-	background-color: white;
+	position: fixed;
 }
 
 .content-text {
@@ -231,30 +231,31 @@ h1{
 }
 
 
- .a1 p,.a2 p,.a3 p,.a4 p{
-	padding-left: 90px;
- }
+ 
 
 
 
-.one ul{
+.one ul,.two ul{
+	display:flex;
 	justify-content: center;
 	list-style-type: none;
 	margin-right: 4%;
-	gap:20px;
-	display:flex;	
+	gap:90px;
+	
 }
 .one li a{
 	text-decoration: none;
 }
-.two ul{
-         display:flex;
-	justify-content: center;
-	list-style-type: none;
-	margin-right: 4%;
-	gap:20px;
+
+.one li a img{
+	width:150px;
+	height:150px;
+}	
+.two li a img{
+	width:150px;
+	height:150px;
 }
-	
+
 
 
 
