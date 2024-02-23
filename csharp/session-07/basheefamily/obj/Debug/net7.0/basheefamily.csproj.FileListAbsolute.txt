@@ -1,0 +1,14 @@
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\bin\Debug\net7.0\basheefamily.exe
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\bin\Debug\net7.0\basheefamily.deps.json
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\bin\Debug\net7.0\basheefamily.runtimeconfig.json
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\bin\Debug\net7.0\basheefamily.dll
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\bin\Debug\net7.0\basheefamily.pdb
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\obj\Debug\net7.0\basheefamily.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\obj\Debug\net7.0\basheefamily.AssemblyInfoInputs.cache
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\obj\Debug\net7.0\basheefamily.AssemblyInfo.cs
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\obj\Debug\net7.0\basheefamily.csproj.CoreCompileInputs.cache
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\obj\Debug\net7.0\basheefamily.dll
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\obj\Debug\net7.0\refint\basheefamily.dll
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\obj\Debug\net7.0\basheefamily.pdb
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\obj\Debug\net7.0\basheefamily.genruntimeconfig.cache
+C:\Users\basheercad01\Desktop\CadBatch01\CSharp\session-07\basheefamily\obj\Debug\net7.0\ref\basheefamily.dll
