@@ -43,6 +43,10 @@ background-color: black;
   .dropdown a:hover {background-color: #ddd;}
   
   .show {display: block;}
+  .rightcorner{
+	position: relative;
+	top: 30px;
+  }
 
 /*side menu*/
 

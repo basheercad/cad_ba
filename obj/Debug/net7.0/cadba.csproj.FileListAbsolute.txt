@@ -1,0 +1,4 @@
+C:\Users\basheercad01\Desktop\music\cadba\obj\Debug\net7.0\cadba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basheercad01\Desktop\music\cadba\obj\Debug\net7.0\cadba.AssemblyInfoInputs.cache
+C:\Users\basheercad01\Desktop\music\cadba\obj\Debug\net7.0\cadba.AssemblyInfo.cs
+C:\Users\basheercad01\Desktop\music\cadba\obj\Debug\net7.0\cadba.csproj.CoreCompileInputs.cache
