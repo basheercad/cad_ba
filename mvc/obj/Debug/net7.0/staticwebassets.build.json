@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hFzuDDZvq0ZLS/wWf8UTb5rSlufuI4LAg/ELgeA6BF8=",
+  "Hash": "msTnzLTQ1j3uiP/vN09Avi+2rTcxU9vn+1FD6LeO+aM=",
   "Source": "mvc",
   "BasePath": "_content/mvc",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\wwwroot\\css\\styles.css",
+      "SourceId": "mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\wwwroot\\",
+      "BasePath": "_content/mvc",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "C:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\wwwroot\\favicon.ico",

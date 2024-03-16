@@ -17,26 +17,17 @@ public class HomeController : Controller
     {
         return View();
     }
-    
-    public IActionResult playlist()
-    {
-        return View();
-    }
-    
-    public IActionResult liked()
+
+     public IActionResult likedsong()
     {
         return View();
     }
 
+ public IActionResult playlist()
+    {
+        return View();
+    }
     public IActionResult Privacy()
-    {
-        return View();
-    }
-    public IActionResult menu()
-    {
-        return View();
-    }
-    public IActionResult help()
     {
         return View();
     }

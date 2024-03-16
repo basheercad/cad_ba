@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\mvc.csproj": {}
+    "c:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\mvc.csproj": {
+    "c:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\mvc.csproj",
+        "projectUniqueName": "c:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\mvc.csproj",
         "projectName": "mvc",
-        "projectPath": "C:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\mvc.csproj",
+        "projectPath": "c:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\mvc.csproj",
         "packagesPath": "C:\\Users\\basheercad01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\obj\\",
+        "outputPath": "c:\\Users\\basheercad01\\Desktop\\CadBatch01\\Musify\\cadba\\mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\basheercad01\\AppData\\Roaming\\NuGet\\NuGet.Config"
